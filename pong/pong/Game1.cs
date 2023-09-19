@@ -43,7 +43,6 @@ namespace pong
             
             WindowWidth = _graphics.PreferredBackBufferWidth;
             WindowHight = _graphics.PreferredBackBufferHeight;
-            font = Content.Load<SpriteFont>("Fonts/Arial");
             base.Initialize();
         }
 
@@ -58,6 +57,7 @@ namespace pong
                     ButtonTexture = Content.Load<Texture2D>("texturabotao");
                     botaoteste = new Button(ButtonTexture, Buttonsize);
                     botaoteste.setPosition(Buttonpos);
+                    font = Content.Load<SpriteFont>("fonte");
                     break;
             }
             
@@ -190,6 +190,8 @@ namespace pong
                     player2.Draw(_spriteBatch);
                     bola.Draw(_spriteBatch);
                     _spriteBatch.Draw(pongbarrertexture, barrerarea, barrercolor);
+                    _spriteBatch.DrawString(font, pointp1.ToString(), new Vector2(330, 50), Color.White);
+                    _spriteBatch.DrawString(font, pointp2.ToString(), new Vector2(390, 50), Color.White);
                     break;
             }
 

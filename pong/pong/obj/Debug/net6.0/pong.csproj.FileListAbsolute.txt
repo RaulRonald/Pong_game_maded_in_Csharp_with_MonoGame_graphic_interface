@@ -27,3 +27,5 @@ C:\Users\halls\OneDrive\Área de Trabalho\pong\pong\bin\Debug\net6.0\Content\tex
 C:\Users\halls\OneDrive\Área de Trabalho\pong\pong\bin\Debug\net6.0\Content\PongPlayer.xnb
 C:\Users\halls\OneDrive\Área de Trabalho\pong\pong\bin\Debug\net6.0\Content\pongball.xnb
 C:\Users\halls\OneDrive\Área de Trabalho\pong\pong\bin\Debug\net6.0\Content\pongbarrer.xnb
+C:\Users\halls\OneDrive\Área de Trabalho\pong\pong\bin\Debug\net6.0\Content\arial.xnb
+C:\Users\halls\OneDrive\Área de Trabalho\pong\pong\bin\Debug\net6.0\Content\fonte.xnb
