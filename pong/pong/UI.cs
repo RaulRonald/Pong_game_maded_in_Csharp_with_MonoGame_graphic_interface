@@ -16,6 +16,7 @@ namespace UI
 		Color color = Color.White;
 		//Button Size
 		Vector2 Size;
+		string player1, player2;
 		// Construtor da classe Botao
 		public Button(Texture2D NewTexture, Vector2 NewSize)
 		{
